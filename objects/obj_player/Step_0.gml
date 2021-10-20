@@ -113,13 +113,16 @@ if (l18A8C1E8_0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 50AFF992
 		/// @DnDParent : 1EC85F8E
-		/// @DnDArgument : "expr" "3"
+		/// @DnDArgument : "expr" "10"
 		/// @DnDArgument : "var" "cooldown"
-		cooldown = 3;
+		cooldown = 10;
 	}
 }
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 18C26598
-variable = 0;
+/// @DnDArgument : "expr" "-1"
+/// @DnDArgument : "expr_relative" "1"
+/// @DnDArgument : "var" "cooldown"
+cooldown += -1;
